@@ -1,0 +1,98 @@
+/* Definições básicas para o corpo da página */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5; /* Fundo cinza claro */
+    color: #333; /* Cor do texto padrão */
+}
+
+/* --- ESTILO DO CABEÇALHO --- */
+
+#modeloHead {
+    background-color: #FFFFFF; /* Fundo branco para o cabeçalho */
+    border-bottom: 2px solid #e0e0e0; /* Linha sutil para separar do conteúdo */
+    padding: 10px 20px;
+    display: flex; /* Para alinhar o logo e a navegação */
+    justify-content: space-between; /* Espaça o logo da navegação */
+    align-items: center; /* Alinha verticalmente */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra suave */
+}
+
+#modeloHead h1 a {
+    color: #007bff; /* Cor principal de destaque (Azul Webmotors) */
+    margin: 0;
+    font-size: 28px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+/* Estilo da Navegação (Menu) */
+#modeloHead nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex; /* Para os links ficarem lado a lado */
+    gap: 20px; /* Espaçamento entre os links */
+}
+
+#modeloHead nav ul li a {
+    text-decoration: none;
+    color: #333; /* Cor do link */
+    font-weight: 600;
+    padding: 10px 0;
+    transition: color 0.3s;
+}
+
+#modeloHead nav ul li a:hover {
+    color: #ff9900; /* Cor de destaque ao passar o mouse (Laranja/Amarelo) */
+    border-bottom: 2px solid #ff9900; /* Linha de destaque */
+}
+
+/* --- ESTILO DO RODAPÉ --- */
+
+#modeloFoot {
+    background-color: #2c3e50; /* Um cinza escuro/azul marinho (Fundo de rodapé) */
+    color: #ecf0f1; /* Texto claro */
+    padding: 30px 20px;
+    text-align: center;
+    margin-top: 40px; /* Espaçamento do conteúdo principal */
+}
+
+#modeloFoot h1 {
+    color: #007bff; /* Cor do logo no rodapé (Azul) */
+    font-size: 24px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+#modeloFoot div {
+    margin-bottom: 20px;
+}
+
+#modeloFoot ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center; /* Centraliza a lista de links */
+    gap: 15px;
+}
+
+#modeloFoot ul li a {
+    color: #bdc3c7; /* Cor do link secundário */
+    text-decoration: none;
+    font-size: 14px;
+    transition: color 0.3s;
+}
+
+#modeloFoot ul li a:hover {
+    color: #007bff; /* Destaca o link ao passar o mouse com a cor principal */
+}
+
+#modeloFoot p {
+    font-size: 12px;
+    margin: 0;
+    color: #95a5a6; /* Cor para o texto de direitos autorais */
+    padding-top: 10px;
+    border-top: 1px solid #3e5871; /* Linha sutil de separação */
+}

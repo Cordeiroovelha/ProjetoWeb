@@ -1,29 +1,14 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/stylesheetPagesStyle.css">
     <title>Pagina Principal</title>
-
-    <script src="js/script01.js"></script>
-
-    <link rel="stylesheet" href="css/styles_index.css">
-
 </head>
 <body>
     <div id="container">
-        <header>
-            <nav>
-                <h1>MotorWeb</h1>
-                <ul>
-                    <li><a href="indexHome.html">Home</a></li>
-                    <li><a href="indexCatalogo.html">Catalogo</a></li>
-                    <li><a href="indexFinancas.html">Finanças</a></li>
-                    <li><a href="indexVenda.html">Venda</a></li>
-                    <li><a href="indexCadastro.html">Cadastro</a></li>
-                </ul>
-            </nav>
-        </header>
+        <header id="modeloHead"></header>
         <section id="Informaçoes">
             <div id="Conteudo">
                 <p><b>Aqui ira ficar algumas informaçoes sobre o site, suas funcionalidades etc.</b> Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam unde quos nam dolorem esse, eius fugiat natus! Iure, modi maxime! Optio, maiores dolor totam consequatur nulla odio omnis natus obcaecati.</p>
@@ -31,25 +16,25 @@
             <div id="Colaboradores">
                 <nav>
                     <ul>
-                        <li>
-                            Murilo
-                            <img src="">
+                        <li> <!-- corrigir imagem (adicionar postos antes do /) -->
+                            <img src="/img/PerfilMurilo.jpg">
+                            <p>Murilo</p>
                         </li>
                         <li>
-                            Alcides
-                            <img src="">
+                            <img src="/img/PerfilAlcides.jpg">
+                            <p>Alcides</p>
                         </li>
-                        <li>
-                            Vinicius
-                            <img src="">
+                        <li>                            
+                            <img src="/img/PerfilVinicius.jpg">
+                            <p>Vinicius</p>
                         </li>
-                        <li>
-                            Victor
-                            <img src="">
+                        <li>                            
+                            <img src="/img/PerfilVictor.jpg">
+                            <p>Victor</p>
                         </li>
-                        <li>
-                            Thiago
-                            <img src="">
+                        <li>                            
+                            <img src="/img/PerfilThiago.jpg">
+                            <p>Thiago</p>
                         </li>
                     </ul>
                 </nav> 
@@ -59,26 +44,34 @@
             <div id="Marcas">
                 <nav>
                     <ul>
-                        <li>
-                            Toyota
-                            <img src="img/ToyotaLogo.png" alt="Toyota">
+                        <li>        
+                            <img src="../img/ToyotaLogo.png" alt="Toyota">
+                            <p>Toyota</p>
                         </li>
-                        <li>
-                            Fiat
-                            <img src="img/FiatLogo.png" alt="Fiat">
+                        <li>                            
+                            <img src="../img/FiatLogo.png" alt="Fiat">
+                            <p>Fiat</p>
                         </li>
-                        <li>
-                            Ford
-                            <img src="img/FordLogo.png" alt="Ford">
+                        <li>                            
+                            <img src="../img/FordLogo.png" alt="Ford">
+                            <p>Ford</p>
                         </li>
-                        <li>
-                            Honda
-                            <img src="img/HondaLogo.png" alt="Honda">
+                        <li>                           
+                            <img src="../img/HondaLogo.png" alt="Honda">
+                            <p>Honda</p>
                         </li>
                     </ul>
                 </nav>
             </div>
         </section>
+        <section id="Noticias">
+
+        </section>
     </div>
+    <div>
+        <footer id="modeloFoot"></footer>
+    </div>
+
+    <script src="../js/scriptComponentes.js"></script>
 </body>
 </html>
