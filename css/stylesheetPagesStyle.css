@@ -96,3 +96,72 @@ body {
     padding-top: 10px;
     border-top: 1px solid #3e5871; /* Linha sutil de separação */
 }
+
+/* --- ESTILO DE CATALOGO DE CARROS --- */
+.menuHorizontal {
+    background-color: #ffffff;
+    padding: 10px 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.menuHorizontal nav {
+    display: flex;
+    justify-content: center;
+}
+
+.menuHorizontal ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 15px;
+}
+
+.menuHorizontal ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: 600;
+    padding: 10px 0;
+    transition: color 0.3s;
+}
+
+.menuHorizontal ul li a:hover {
+    color: #ff9900;
+    border-bottom: 2px solid #ff9900;
+}
+
+.marca {
+    font-size: 32px;
+    font-weight: bold;
+    color: #007bff;
+    margin: 20px;
+}
+
+.categoriaCarro {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: left;
+    padding: 20px;
+}
+
+#carros .categoriaCarro .carroCatalogo {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    width: 300px;
+    padding : 15px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+#carros .categoriaCarro .carroCatalogo .precoCarro {
+    font-size: 18px;
+    font-weight: bold;
+    color: #28a745; /* Verde para o preço */
+    margin-top: 10px;
+}
+
+#carros .categoriaCarro .carroCatalogo:hover {
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
