@@ -96,3 +96,31 @@ body {
     padding-top: 10px;
     border-top: 1px solid #3e5871; /* Linha sutil de separação */
 }
+
+/* Pagina Home */
+
+#Colaboradores {
+    border: 1px solid red;
+}
+
+#Colaboradores nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#Colaboradores img {
+    max-width: 100px;
+    border: 1px solid red;
+}
+
+#Marcas nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#Marcas img {
+     max-width: 150px;
+     border: 2px solid red;
+}
