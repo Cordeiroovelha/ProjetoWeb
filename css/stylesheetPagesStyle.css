@@ -115,12 +115,27 @@ body {
 }
 
 #Marcas nav ul {
-    list-style: none;
     display: flex;
     justify-content: space-evenly;
 }
 
-#Marcas img {
+#Marcas {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.Marca img {
      max-width: 150px;
      border: 2px solid red;
+}
+
+.Marca {
+    background-color: aliceblue;
+    width: 250px;
+    text-align: center;
+    padding: 10px;
+    border-radius: 20px;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0 , 0.2);
+    margin-bottom: 20px;
 }
