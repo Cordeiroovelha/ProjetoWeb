@@ -5,6 +5,9 @@ body {
     padding: 0;
     background-color: #f5f5f5; /* Fundo cinza claro */
     color: #333; /* Cor do texto padrão */
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Garante que o body ocupe pelo menos 100% da altura da tela */
 }
 
 /* --- ESTILO DO CABEÇALHO --- */
@@ -97,10 +100,44 @@ body {
     border-top: 1px solid #3e5871; /* Linha sutil de separação */
 }
 
+.preencherEspaco {
+    flex-grow: 1; /* Faz o espaço crescer para empurrar o rodapé para baixo */
+}
+
 /* Pagina Home */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#container {
+    width: 100%;
+    margin: 0 auto;
+}
+
+
+#Conteudo p {
+    margin: 80px;
+    font-size: 18px;
+    line-height: 1.6;
+    text-align: center;
+}
 
 #Colaboradores {
     border: 1px solid red;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.Colaborador {
+    width: 250px;
+    margin-top: 40px;
+    text-align: center;
+    padding: 10px;
+    border-radius: 50%;
+    margin-bottom: 20px;
 }
 
 #Colaboradores nav ul {
@@ -111,18 +148,36 @@ body {
 
 #Colaboradores img {
     max-width: 100px;
-    border: 1px solid red;
+    border: 3px solid rgb(80, 80, 80);
+    box-shadow: 4px 4px 4px rgba(0, 0, 0 , 0.2);
+    border-radius: 50%;
 }
 
-#Marcas nav ul {
-    list-style: none;
+.Colaborador p {
+    color: black;
+}
+
+
+#Marcas {
+    margin-top: 50px;
+    margin-left: 15px;
     display: flex;
     justify-content: space-evenly;
 }
 
-#Marcas img {
-     max-width: 150px;
-     border: 2px solid red;
+.Marca img {
+    max-width: 125px;
+    border: 3px solid rgb(80, 80, 80);
+    box-shadow: 4px 4px 4px rgba(0, 0, 0 , 0.2);
+    border-radius: 50%;
+}
+
+.Marca {
+    width: 250px;
+    text-align: center;
+    padding: 10px;
+    border-radius: 50%;
+    margin-bottom: 20px;
 }
 
 /* --- ESTILO DE CATALOGO DE CARROS --- */

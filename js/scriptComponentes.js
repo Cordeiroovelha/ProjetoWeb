@@ -26,5 +26,5 @@ modeloFoot.innerHTML = `
                         <li><a href="indexCadastro.html">Cadastro</a></li>
                     </ul>
                 </div>
-               <p>Todos os direitos reservados &copy 2005-2025 | MotorWeb</p>
+               <p>O site <b>MotorWeb</b> é um projeto sem intuito financeiro | MotorWeb</p>
     `
