@@ -97,6 +97,34 @@ body {
     border-top: 1px solid #3e5871; /* Linha sutil de separação */
 }
 
+/* Pagina Home */
+
+#Colaboradores {
+    border: 1px solid red;
+}
+
+#Colaboradores nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#Colaboradores img {
+    max-width: 100px;
+    border: 1px solid red;
+}
+
+#Marcas nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#Marcas img {
+     max-width: 150px;
+     border: 2px solid red;
+}
+
 /* --- ESTILO DE CATALOGO DE CARROS --- */
 .menuHorizontal {
     background-color: #ffffff;
@@ -164,4 +192,15 @@ body {
 
 #carros .categoriaCarro .carroCatalogo:hover {
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+#carros .categoriaCarro .carroCatalogo .botaoComprar {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+    font-size: 16px;
 }

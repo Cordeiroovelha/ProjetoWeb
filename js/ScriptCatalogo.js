@@ -45,40 +45,39 @@ class Carro {
     getFoto() { return this.foto; }
 }
 const carrosToyota = [
-    new Carro("Corolla", marca.TOYOTA, 1.8, tipoCambio.AUTOMATICO, tipoCombustivel.FLEX, 115000, "../img/corolla.jpg"),
-    new Carro("Yaris", marca.TOYOTA, 1.5, tipoCambio.AUTOMATICO, tipoCombustivel.FLEX, 85000, "../img/yaris.jpg"),
-    new Carro("Hilux", marca.TOYOTA, 2.8, tipoCambio.AUTOMATICO, tipoCombustivel.GASOLINA, 280000, "../img/hilux.jpg"),
-    new Carro("RAV4", marca.TOYOTA, 2.5, tipoCambio.AUTOMATICO, tipoCombustivel.HIBRIDO, 195000, "img/rav4.jpg"),
-    new Carro("Etios", marca.TOYOTA, 1.5, tipoCambio.MANUAL, tipoCombustivel.FLEX, 75000, "../img/etios.jpg"),
-    new Carro("Camry", marca.TOYOTA, 2.5, tipoCambio.AUTOMATICO, tipoCombustivel.HIBRIDO, 245000, "../img/camry.jpg"),
-    new Carro("Fortuner", marca.TOYOTA, 2.8, tipoCambio.AUTOMATICO, tipoCombustivel.GASOLINA, 320000, "../img/fortuner.jpg"),
+    new Carro("Corolla", marca.TOYOTA, 1.8, tipoCambio.AUTOMATICO, tipoCombustivel.FLEX, 115000, "../img/corolla.webp"),
+    new Carro("Yaris", marca.TOYOTA, 1.5, tipoCambio.AUTOMATICO, tipoCombustivel.FLEX, 85000, "../img/yaris.webp"),
+    new Carro("Hilux", marca.TOYOTA, 2.8, tipoCambio.AUTOMATICO, tipoCombustivel.GASOLINA, 280000, "../img/hilux.webp"),
+    new Carro("RAV4", marca.TOYOTA, 2.5, tipoCambio.AUTOMATICO, tipoCombustivel.HIBRIDO, 195000, "../img/rav4.webp"),
+    new Carro("Etios", marca.TOYOTA, 1.5, tipoCambio.MANUAL, tipoCombustivel.FLEX, 75000, "../img/etios.webp"),
+    new Carro("Camry", marca.TOYOTA, 2.5, tipoCambio.AUTOMATICO, tipoCombustivel.HIBRIDO, 245000, "../img/camry.webp"),
+    new Carro("Fortuner", marca.TOYOTA, 2.8, tipoCambio.AUTOMATICO, tipoCombustivel.GASOLINA, 320000, "../img/fortuner.webp"),
 ];
 const carrosFiat = [
-    new Carro("Argo", marca.FIAT, 1.0, tipoCambio.MANUAL, tipoCombustivel.FLEX, 65000, "../img/argo.jpg"),
-    new Carro("Mobi", marca.FIAT, 1.0, tipoCambio.MANUAL, tipoCombustivel.FLEX, 60000, "../img/mobi.jpg"),
-    new Carro("Toro", marca.FIAT, 2.0, tipoCambio.AUTOMATICO, tipoCombustivel.GASOLINA, 165000, "../img/toro.jpg"),
-    new Carro("Pulse", marca.FIAT, 1.3, tipoCambio.AUTOMATICO, tipoCombustivel.FLEX, 125000, "../img/pulse.jpg"),
-    new Carro("Strada", marca.FIAT, 1.4, tipoCambio.MANUAL, tipoCombustivel.FLEX, 105000, "../img/strada.jpg"),
-    new Carro("Cronos", marca.FIAT, 1.3, tipoCambio.AUTOMATICO, tipoCombustivel.FLEX, 95000, "../img/cronos.jpg"),
-    new Carro("Fastback", marca.FIAT, 1.3, tipoCambio.AUTOMATICO, tipoCombustivel.FLEX, 135000, "../img/fastback.jpg"),
+    new Carro("Argo", marca.FIAT, 1.0, tipoCambio.MANUAL, tipoCombustivel.FLEX, 65000, "../img/argo.webp"),
+    new Carro("Mobi", marca.FIAT, 1.0, tipoCambio.MANUAL, tipoCombustivel.FLEX, 60000, "../img/mobi.webp"),
+    new Carro("Toro", marca.FIAT, 2.0, tipoCambio.AUTOMATICO, tipoCombustivel.GASOLINA, 165000, "../img/toro.webp"),
+    new Carro("Pulse", marca.FIAT, 1.3, tipoCambio.AUTOMATICO, tipoCombustivel.FLEX, 125000, "../img/pulse.webp"),
+    new Carro("Strada", marca.FIAT, 1.4, tipoCambio.MANUAL, tipoCombustivel.FLEX, 105000, "../img/strada.webp"),
+    new Carro("Cronos", marca.FIAT, 1.3, tipoCambio.AUTOMATICO, tipoCombustivel.FLEX, 95000, "../img/cronos.webp"),
+    new Carro("Fastback", marca.FIAT, 1.3, tipoCambio.AUTOMATICO, tipoCombustivel.FLEX, 135000, "../img/fastback.webp"),
 ];
 const carrosFord = [
-    new Carro("Fiesta", marca.FORD, 1.5, tipoCambio.MANUAL, tipoCombustivel.GASOLINA, 85000, "../img/fiesta.jpg"),
-    new Carro("EcoSport", marca.FORD, 1.5, tipoCambio.AUTOMATICO, tipoCombustivel.FLEX, 125000, "../img/ecosport.jpg"),
-    new Carro("Ranger", marca.FORD, 2.0, tipoCambio.AUTOMATICO, tipoCombustivel.GASOLINA, 185000, "../img/ranger.jpg"),
-    new Carro("Territory", marca.FORD, 1.5, tipoCambio.AUTOMATICO, tipoCombustivel.GASOLINA, 145000, "../img/territory.jpg"),
-    new Carro("Ka", marca.FORD, 1.0, tipoCambio.MANUAL, tipoCombustivel.FLEX, 55000, "../img/ka.jpg"),
-    new Carro("Mustang", marca.FORD, 5.0, tipoCambio.AUTOMATICO, tipoCombustivel.GASOLINA, 425000, "../img/mustang.jpg"),
-    new Carro("Edge", marca.FORD, 2.0, tipoCambio.AUTOMATICO, tipoCombustivel.GASOLINA, 225000, "../img/edge.jpg"),
+    new Carro("Fiesta", marca.FORD, 1.5, tipoCambio.MANUAL, tipoCombustivel.GASOLINA, 85000, "../img/fiesta.webp"),
+    new Carro("EcoSport", marca.FORD, 1.5, tipoCambio.AUTOMATICO, tipoCombustivel.FLEX, 125000, "../img/ecosport.webp"),
+    new Carro("Ranger", marca.FORD, 2.0, tipoCambio.AUTOMATICO, tipoCombustivel.GASOLINA, 185000, "../img/ranger.webp"),
+    new Carro("Territory", marca.FORD, 1.5, tipoCambio.AUTOMATICO, tipoCombustivel.GASOLINA, 145000, "../img/territory.webp"),
+    new Carro("Ka", marca.FORD, 1.0, tipoCambio.MANUAL, tipoCombustivel.FLEX, 55000, "../img/ka.webp"),
+    new Carro("Mustang", marca.FORD, 5.0, tipoCambio.AUTOMATICO, tipoCombustivel.GASOLINA, 425000, "../img/mustang.webp"),
+    new Carro("Edge", marca.FORD, 2.0, tipoCambio.AUTOMATICO, tipoCombustivel.GASOLINA, 225000, "../img/edge.webp"),
 ];
 const carrosHonda = [
-    new Carro("HB20", marca.HONDA, 1.0, tipoCambio.MANUAL, tipoCombustivel.FLEX, 75000, "../img/hb20.jpg"),
-    new Carro("Civic", marca.HONDA, 2.0, tipoCambio.AUTOMATICO, tipoCombustivel.GASOLINA, 155000, "../img/civic.jpg"),
-    new Carro("CR-V", marca.HONDA, 1.5, tipoCambio.AUTOMATICO, tipoCombustivel.GASOLINA, 185000, "../img/crv.jpg"),
-    new Carro("Accord", marca.HONDA, 2.0, tipoCambio.AUTOMATICO, tipoCombustivel.GASOLINA, 210000, "img/accord.jpg"),
-    new Carro("Fit", marca.HONDA, 1.5, tipoCambio.AUTOMATICO, tipoCombustivel.FLEX, 95000, "../img/fit.jpg"),
-    new Carro("WR-V", marca.HONDA, 1.5, tipoCambio.AUTOMATICO, tipoCombustivel.FLEX, 135000, "../img/wrv.jpg"),
-    new Carro("Pilot", marca.HONDA, 3.5, tipoCambio.AUTOMATICO, tipoCombustivel.GASOLINA, 280000, "../img/pilot.jpg"),
+    new Carro("Civic", marca.HONDA, 2.0, tipoCambio.AUTOMATICO, tipoCombustivel.GASOLINA, 155000, "../img/civic.webp"),
+    new Carro("CR-V", marca.HONDA, 1.5, tipoCambio.AUTOMATICO, tipoCombustivel.GASOLINA, 185000, "../img/crv.webp"),
+    new Carro("Accord", marca.HONDA, 2.0, tipoCambio.AUTOMATICO, tipoCombustivel.GASOLINA, 210000, "../img/accord.webp"),
+    new Carro("Fit", marca.HONDA, 1.5, tipoCambio.AUTOMATICO, tipoCombustivel.FLEX, 95000, "../img/fit.webp"),
+    new Carro("WR-V", marca.HONDA, 1.5, tipoCambio.AUTOMATICO, tipoCombustivel.FLEX, 135000, "../img/wrv.webp"),
+    new Carro("Pilot", marca.HONDA, 3.5, tipoCambio.AUTOMATICO, tipoCombustivel.GASOLINA, 280000, "../img/pilot.webp"),
 ];
 
 const carros = [carrosToyota, carrosFiat, carrosFord, carrosHonda];
@@ -118,7 +117,12 @@ function elementosCarros(marca) {
                 combustivelCarro.append(carros[i][j].getCombustivel());
                 let precoCarro = document.createElement("p");
                 precoCarro.className = "precoCarro";
-                precoCarro.append(`R$ ${carros[i][j].getPreco().toFixed(2)}`);
+                precoCarro.append(`R$ ${carros[i][j].getPreco().toFixed(2).replace(".", ",").replace(/\B(?=(\d{3})+(?!\d))/g, ".")}`);
+                let botaoComprar = document.createElement("button");
+                botaoComprar.className = "botaoComprar";
+                botaoComprar.append("Comprar");
+                botaoComprar.setAttribute("type", "button");
+                
 
                 carro.appendChild(imgCarro);
                 carro.appendChild(nomeCarro);
@@ -127,6 +131,7 @@ function elementosCarros(marca) {
                 carro.appendChild(cambioCarro);
                 carro.appendChild(combustivelCarro);
                 carro.appendChild(precoCarro);
+                carro.appendChild(botaoComprar);
 
                 divCategoriaCarro.appendChild(carro);
                 divCarros.appendChild(divCategoriaCarro);
@@ -159,3 +164,5 @@ for (let i = 0; i < carros.length; i++) {
             break;
     }
 }
+
+module.exports = { Carro };   
