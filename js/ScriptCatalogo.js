@@ -93,7 +93,7 @@ function elementosCarros(marca) {
 
     let divCategoriaCarro = document.createElement("div");
     divCategoriaCarro.className = "categoriaCarro";
-    
+
     for (let i = 0; i < carros.length; ++i) {
         for (let j = 0; j < carros[i].length; ++j) {
             if (carros[i][j].getMarca() !== marca) {
@@ -117,12 +117,23 @@ function elementosCarros(marca) {
                 combustivelCarro.append(carros[i][j].getCombustivel());
                 let precoCarro = document.createElement("p");
                 precoCarro.className = "precoCarro";
-                precoCarro.append(`R$ ${carros[i][j].getPreco().toFixed(2).replace(".", ",").replace(/\B(?=(\d{3})+(?!\d))/g, ".")}`);
+                precoCarro.append(`R$ ${carros[i][j].getPreco().toLocaleString('pt-BR', { style: 'currency', currency: 'BRL' })}`);
                 let botaoComprar = document.createElement("button");
                 botaoComprar.className = "botaoComprar";
                 botaoComprar.append("Comprar");
                 botaoComprar.setAttribute("type", "button");
-                
+                botaoComprar.addEventListener("click", function () {
+                    // Cria um objeto URLSearchParams para gerenciar os parâmetros
+                    const params = new URLSearchParams();
+                    params.set('nomeCarro', carros[i][j].getNome()); // Adiciona o primeiro parâmetro
+
+                    // Constrói a URL completa para a página de destino
+                    // Certifique-se de que a URL de destino está correta, por exemplo, "pagina_destino.html"
+                    const urlDestino = `indexFinancas.html?${params.toString()}`;
+
+                    // Redireciona o navegador para a nova URL
+                    window.location.href = urlDestino;
+                });
 
                 carro.appendChild(imgCarro);
                 carro.appendChild(nomeCarro);
@@ -164,5 +175,3 @@ for (let i = 0; i < carros.length; i++) {
             break;
     }
 }
-
-module.exports = { Carro };   

@@ -5,7 +5,7 @@ modeloHead.innerHTML = `
             <nav>
                 <ul>
                     <li><a href="indexHome.html">Home</a></li>
-                    <li><a href="indexCatalogo.html">Catalogo</a></li>                    <li><a href="indexFinancas.html">Finanças</a></li>
+                    <li><a href="indexCatalogo.html">Catálogo</a></li>                    <li><a href="indexFinancas.html">Finanças</a></li>
                     <li><a href="indexVenda.html">Venda</a></li>
                     <li><a href="indexCadastro.html">Cadastro</a></li>
                 </ul>
@@ -21,7 +21,7 @@ modeloFoot.innerHTML = `
                <div>
                     <ul>
                         <li><a href="indexHome.html">Home</a></li>
-                        <li><a href="indexCatalogo.html">Catalogo</a></li>                    <li><a href="indexFinancas.html">Finanças</a></li>
+                        <li><a href="indexCatalogo.html">Catálogo</a></li>                    <li><a href="indexFinancas.html">Finanças</a></li>
                         <li><a href="indexVenda.html">Venda</a></li>
                         <li><a href="indexCadastro.html">Cadastro</a></li>
                     </ul>
