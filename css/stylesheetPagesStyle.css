@@ -100,6 +100,7 @@ body {
     border-top: 1px solid #3e5871; /* Linha sutil de separação */
 }
 
+/* Classe para preencher o espaço entre o conteúdo e o rodapé */
 .preencherEspaco {
     flex-grow: 1; /* Faz o espaço crescer para empurrar o rodapé para baixo */
 }
@@ -238,6 +239,11 @@ body {
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
+#carros .categoriaCarro .carroCatalogo img {
+    width: 100%;
+    height: auto;
+}
+
 #carros .categoriaCarro .carroCatalogo .precoCarro {
     font-size: 18px;
     font-weight: bold;
@@ -258,4 +264,62 @@ body {
     cursor: pointer;
     margin-top: 10px;
     font-size: 16px;
+}
+
+#carros .categoriaCarro .carroCatalogo .botaoComprar:hover {
+    background-color: #0056b3;
+}
+
+/* --- ESTILO DA PÁGINA DE FINANÇAS --- */
+.sectionFinancas {
+    flex-grow: 1;
+    padding: 40px 20px;
+    background-color: #ffffff;
+}
+.sectionFinancas h1 {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #007bff;
+}
+.sectionFinancas p {
+    text-align: center;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+.sectionFinancas form {
+    max-width: 500px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.sectionFinancas label {
+    font-weight: bold;
+}
+.sectionFinancas input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+.sectionFinancas button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 12px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+    margin-top: 10px;
+}
+.sectionFinancas button:hover {
+    background-color: #0056b3;
+}
+.sectionFinancas #resultado {
+    max-width: 600px;
+    margin: 30px auto 0 auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #f9f9f9;
 }
