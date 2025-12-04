@@ -307,6 +307,15 @@ body {
 }
 
 /* --- ESTILO DA PÁGINA DE FINANÇAS --- */
+.venda-carro {
+    padding: 40px 20px;
+    background-color: #ffffff;
+}
+.venda-carro h2 {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #007bff;
+}
 .sectionFinancas {
     flex-grow: 1;
     padding: 40px 20px;
@@ -364,4 +373,56 @@ body {
     border: 1px solid #ddd;
     border-radius: 8px;
     background-color: #f9f9f9;
+}
+
+/* --- ESTILO DA PÁGINA DE VENDA DE CARROS --- */
+.form {
+    max-width: 600px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+.form label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+.form input, .form select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+.form button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 12px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+}
+.form button:hover {
+    background-color: #0056b3;
+}
+.carro-info {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 15px;
+    border: 1px solid #28a745;
+    border-radius: 8px;
+    background-color: #e6ffed;
+}
+.carro-info h2 {
+    color: #28a745;
+    margin-bottom: 10px;
+}
+.carro-info p {
+    margin: 5px 0;
+    font-weight: bold;
 }
