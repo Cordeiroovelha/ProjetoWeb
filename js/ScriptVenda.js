@@ -11,10 +11,11 @@ const tiposCombustivel = [
 ];
 
 const cilindradas = [
+    "1.0",
     "1.3",
     "1.4",
     "1.8",
-    "2",
+    "2.0",
     "2.5",
     "2.8",
 ];
@@ -94,7 +95,7 @@ function informacoesCarro(carroCriado) {
         `
             Nome do carro: ${carroCriado.getNome()} <br>
             Marca: ${carroCriado.getMarca()} <br>
-            Motor: ${carroCriado.getCilindrada().toFixed(1)} <br>
+            Motor: ${carroCriado.getCilindrada()} <br>
             Câmbio: ${carroCriado.getCambio()} <br>
             Combustível: ${carroCriado.getCombustivel()} <br>
             Preço: R$ ${carroCriado.getPreco().toLocaleString('pt-BR', { style: 'currency', currency: 'BRL' })} <br>
