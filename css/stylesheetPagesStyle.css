@@ -317,6 +317,12 @@ body {
     margin-bottom: 30px;
     color: #007bff;
 }
+.sectionFinancas img {
+    display: block;
+    margin: 0 auto 20px auto;
+    max-width: 300px;
+    border-radius: 8px;
+}
 .sectionFinancas p {
     text-align: center;
     font-size: 18px;
