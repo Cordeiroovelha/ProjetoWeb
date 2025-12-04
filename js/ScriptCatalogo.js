@@ -107,14 +107,13 @@ function elementosCarros(marca) {
                 imgCarro.alt = "Foto Carro ";
                 let nomeCarro = document.createElement("h3");
                 nomeCarro.append(carros[i][j].getNome());
-                let marcaCarro = document.createElement("p");
-                marcaCarro.append(carros[i][j].getMarca());
-                let cilindradaCarro = document.createElement("p");
-                cilindradaCarro.append(carros[i][j].getCilindrada());
-                let cambioCarro = document.createElement("p");
-                cambioCarro.append(carros[i][j].getCambio());
-                let combustivelCarro = document.createElement("p");
-                combustivelCarro.append(carros[i][j].getCombustivel());
+                let dadosCarro = document.createElement("p");
+                dadosCarro.innerHTML = (`
+                    <b>Marca:</b> ${carros[i][j].getMarca()} <br>
+                    <b>Motor:</b> ${carros[i][j].getCilindrada().toFixed(1)} <br>
+                    <b>Câmbio:</b> ${carros[i][j].getCambio()} <br>
+                    <b>Combustível:</b> ${carros[i][j].getCombustivel()} <br>
+                `);
                 let precoCarro = document.createElement("p");
                 precoCarro.className = "precoCarro";
                 precoCarro.append(`R$ ${carros[i][j].getPreco().toLocaleString('pt-BR', { style: 'currency', currency: 'BRL' })}`);
@@ -137,10 +136,7 @@ function elementosCarros(marca) {
 
                 carro.appendChild(imgCarro);
                 carro.appendChild(nomeCarro);
-                carro.appendChild(marcaCarro);
-                carro.appendChild(cilindradaCarro);
-                carro.appendChild(cambioCarro);
-                carro.appendChild(combustivelCarro);
+                carro.appendChild(dadosCarro);
                 carro.appendChild(precoCarro);
                 carro.appendChild(botaoComprar);
 

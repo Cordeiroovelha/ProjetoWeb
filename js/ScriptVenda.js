@@ -94,7 +94,7 @@ function informacoesCarro(carroCriado) {
         `
             Nome do carro: ${carroCriado.getNome()} <br>
             Marca: ${carroCriado.getMarca()} <br>
-            Cilindrada: ${carroCriado.getCilindrada()} <br>
+            Motor: ${carroCriado.getCilindrada().toFixed(1)} <br>
             Câmbio: ${carroCriado.getCambio()} <br>
             Combustível: ${carroCriado.getCombustivel()} <br>
             Preço: R$ ${carroCriado.getPreco().toLocaleString('pt-BR', { style: 'currency', currency: 'BRL' })} <br>
